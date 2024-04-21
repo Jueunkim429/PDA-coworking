@@ -1,0 +1,39 @@
+.footer-out{
+    /* Footer */
+    position: static;
+    width: 1440px;
+    height: 526px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 64px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 10;
+    flex-grow: 0;
+    margin: 0px 0px;
+
+    border: solid red 1px;
+}
+
+.footer-box{
+    /* Card */
+position: static;
+width: 1312px;
+height: 340px;
+/* 자동 레이아웃 */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 48px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 32px 0px;
+}
