@@ -1,6 +1,6 @@
 /*------------------Virtual Tour section------------------*/
 .Virtual-Tour {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   /* Virtual Tour */
   position: static;
   width: 1440px;
@@ -19,7 +19,6 @@
   margin: 0px 0px;
 }
 .VT-content {
-  border: 1px solid red;
   /* Content */
   position: static;
   width: 768px;
@@ -38,7 +37,7 @@
   margin: 80px 0px;
 }
 .VT-content-subtitle {
-  border: 1px solid blueviolet;
+  /*border: 1px solid blueviolet;*/
   /* Subheading */
   position: static;
   width: 91px;
