@@ -7,6 +7,7 @@
     </head>
 
     <body>
+
         <header></header>
         <section>
 
@@ -26,8 +27,34 @@
         <section>
             
         </section>
+
+        <!--FAG-->
         <section>
-            
+            <div>
+                <div>
+                    <p>Frequently Asked Questions</p>
+                    <p>Your Roadmap to Coworking Clarity</p>
+                    <p>Frequently asked questions ordered by popularity. Remember that if the visitor has not committed to the call to action, they may still have questions (doubts) that can be answered.</p>
+                </div>
+
+                <div>
+                    <div>
+                        <div>How flexible are Cowork's membership plans?<button id="toggleButton">글 보이기/가리기</button></div>
+                        <div id="content">
+                          <p>Frequently asked questions ordered by popularity. Remember that if the visitor has not committed to the call to action, they may still have questions (doubts) that can be answered.</p>
+                        </div>
+                      </div>
+                      <script>
+                        document.getElementById("toggleButton").addEventListener("click", function() {
+                        var content = document.getElementById("content");
+                        if (content.style.display === "none") {
+                            content.style.display = "block";
+                        } else {
+                            content.style.display = "none";
+                        }
+                        });
+                    </script>
+                </div>
         </section>
 
         <!--CTA-->
