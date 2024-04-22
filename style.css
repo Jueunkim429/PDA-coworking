@@ -1,3 +1,6 @@
+/*blog*/
+
+/*footer*/
 .footer-out{
     /* Footer */
     position: static;
@@ -149,12 +152,11 @@
     background-color: transparent;
     border-bottom: 1px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
-
-font-size: 14px;
-font-weight: 400;
-line-height: 150%;
-letter-spacing: 0%;
-text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
  }
 
  .footer-btn{
@@ -179,183 +181,166 @@ text-align: left;
     }
 
     .footer-right{
-        /* Links */
-/* Links */
-position: static;
-width: 588px;
-height: 244px;
-/* 자동 레이아웃 */
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-flex-grow: 1;
-margin: 0px 128px;
-border: solid red 1px;
+    /* Links */
+    position: static;
+    height: 244px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0px 128px;
+    border: solid red 1px;
     }
 
     .footer-nav{
-        /* Column */
-position: static;
-width: 169.33px;
-height: auto;
-/* 자동 레이아웃 */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 1;
-margin: 0px 40px;
+     /* Column */
+    position: static;
+    width: 169.33px;
+    height: auto;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 40px;
     }
+
 .footer-nav-title{
     /* Heading */
-position: static;
-width: 169.33px;
-height: 18px;
-/* 자동 레이아웃 */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 16px 0px;
-color: rgb(255, 255, 255);
-font-family: Pretendard;
-font-size: 12px;
-font-weight: 100;
-line-height: 150%;
-letter-spacing: 0%;
-text-align: left;
-text-transform: uppercase;
+    position: static;
+    width: 169.33px;
+    height: 18px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Pretendard;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 .footer-nav-contents{
     /* Link */
-position: static;
-width: 169.33px;
-height: 42px;
-/* 자동 레이아웃 */
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 8px 0px 8px 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 1;
-margin: 0px 0px;
-color: rgb(255, 255, 255);
-font-size: 14px;
-font-weight: 400;
-line-height: 180%;
-letter-spacing: 0%;
-text-align: left;
+    position: static;
+    width: 169.33px;
+    height: 42px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 8px 0px 8px 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .footer-row{
     /* Row */
-position: static;
-height: 26px;
-/* 자동 레이아웃 */
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: flex-start;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 32px 0px;
-border: solid red 1px;
+    position: static;
+    height: 26px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+    border: solid red 1px;
 }
 
 .footer-copy{
     /* Text */
-position: static;
-height: 26px;
-/* 자동 레이아웃 */
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 10px;
+    position: static;
+    height: 26px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
 }
 
 .footer-link{
     /* Footer Links */
-position: static;
-height: 21px;
-/* 자동 레이아웃 */
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 10px;
+    position: static;
+    height: 21px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
 }
 
 .footer-link-text{
     /* Link */
-position: static;
-height: 21px;
-/* 자동 레이아웃 */
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 24px;
-color: rgb(29, 30, 28);
-font-family: Pretendard;
-font-size: 14px;
-font-weight: 400;
-line-height: 150%;
-letter-spacing: 0%;
-text-align: left;
-text-decoration-line: underline;
+    position: static;
+    height: 21px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    color: rgb(29, 30, 28);
+    font-family: Pretendard;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
 }
