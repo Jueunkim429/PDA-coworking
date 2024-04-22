@@ -1,0 +1,112 @@
+/*상단 메뉴바*/
+/* Container */
+.NavBar {
+  position: static;
+  width: 1440px;
+  height: 72px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 64px 0px 64px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.container {
+  /* Container */
+  position: static;
+  width: 1312px;
+  height: 45px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 0px;
+}
+.nav-menu {
+  list-style: none;
+  /* Column */
+  position: static;
+  width: 296px;
+  height: 26px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.header-logo {
+  /* Logo */
+  position: static;
+  width: 118.95px;
+  height: 24px;
+  margin: 0px 645px 0px 0px;
+}
+.menu-button {
+  position: static;
+  width: 204px;
+  height: 45px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+.menu-button .menu-button1 {
+  /* button */
+  position: static;
+  width: 85px;
+  height: 45px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px 12px 24px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 12px;
+
+  border: 1px solid rgb(29, 30, 28);
+  border-radius: 42px;
+  background: rgb(255, 255, 255);
+}
+.menu-button .menu-button2 {
+  /* button */
+  position: static;
+  width: 95px;
+  height: 45px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px 12px 24px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 12px;
+
+  border: 1px solid rgb(29, 30, 28);
+  border-radius: 42px;
+  background: rgb(29, 30, 28);
+}
