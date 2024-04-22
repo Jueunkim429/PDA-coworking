@@ -2,10 +2,12 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css"/>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+
         <header></header>
         <section>
 
@@ -25,16 +27,217 @@
         <section>
             
         </section>
+
+        <!--FAG-->
         <section>
-            
+            <div class="faq">
+                <div class="faq-right">
+                    <p class="faq-title">Frequently Asked Questions</p>
+                    <div class="faq-title-box">
+                        <p class="faq-main">Your Roadmap to Coworking Clarity</p>
+                        <p class="faq-contents">Frequently asked questions ordered by popularity. Remember that if the visitor has not committed to the call to action, they may still have questions (doubts) that can be answered.</p>
+                    </div>
+                </div>
+
+                <div class="faq-left">
+                    <div class="faq-togglebox">
+                        <div class="faq-toggletitle">
+                          <p class="faq-toggletxt">How flexible are Cowork's membership plans?</p>
+                          <button id="toggleButton"><img id="toggleImage" src="./img/toggledown.svg" alt="이미지" width="24px"></button>
+                        </div>
+                        <div class="faq-innercontent">
+                          <p>Frequently asked questions ordered by popularity. Remember that if the visitor has not committed to the call to action, they may still have questions (doubts) that can be answered.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="faq-line"></div>
+
+                    <div class="faq-togglebox">
+                        <div class="faq-toggletitle">
+                          <p class="faq-toggletxt">What kind of events and networking opportunities does Cowork provide?</p>
+                          <button id="toggleButton"><img id="toggleImage" src="./img/toggleup.svg" alt="이미지" width="24px"></button>
+                        </div>
+                    </div>
+                    <div class="faq-line"></div>
+
+                    <div class="faq-togglebox">
+                        <div class="faq-toggletitle">
+                          <p class="faq-toggletxt">Can I tour the Cowork space before committing to a membership?</p>
+                          <button id="toggleButton"><img id="toggleImage" src="./img/toggleup.svg" alt="이미지" width="24px"></button>
+                        </div>
+                        
+                    </div>
+                    <div class="faq-line"></div>
+
+                    <div class="faq-togglebox">
+                        <div class="faq-toggletitle">
+                          <p class="faq-toggletxt">Is Cowork suitable for remote teams and distributed workforces?</p>
+                          <button id="toggleButton"><img id="toggleImage" src="./img/toggleup.svg" alt="이미지" width="24px"></button>
+                        </div>
+                    </div>
+                    <div class="faq-line"></div>
+
+                    <div class="faq-togglebox">
+                        <div class="faq-toggletitle">
+                          <p class="faq-toggletxt">What measures does Cowork take for environmental sustainability?</p>
+                          <button id="toggleButton"><img id="toggleImage" src="./img/toggleup.svg" alt="이미지" width="24px"></button>
+                        </div>
+                    </div>
+                    <div class="faq-line"></div>
+                    
+                    <div class="faq-togglebox">
+                        <div class="faq-toggletitle">
+                          <p class="faq-toggletxt">Still has questions?</p>
+                          <button id="toggleButton"><img id="toggleImage" src="./img/toggleup.svg" alt="이미지" width="24px"></button>
+                        </div>
+                    </div>
+                    <div class="faq-line"></div>
+    
+                      <script>
+                        var button = document.getElementById("toggleButton");
+                        var image = document.getElementById("toggleImage");
+                        var text = document.querySelector(".faq-innercontent");
+                      
+                        button.addEventListener("click", function() {
+                          if (image.src.endsWith("toggledown.svg")) {
+                            image.src = "./img/toggleup.svg";
+                            text.style.display = "none";
+                          } else {
+                            image.src = "./img/toggledown.svg";
+                            text.style.display = "block";
+                          }
+                        });
+                      </script>
+                      
+                    
+                </div>
         </section>
-        <section>
-            
+
+        <!--CTA-->
+        <section class="pta">
+            <div class="pta-out">
+                <div class="pta-txt-box">
+                    <div class="pta-txt">Seize <img src="./img/pta-logo.svg" width="width= 240px"> The Moment -<br>
+                    Join Cowork Today!</div>
+                    <p class="pta-txt2">Uncover the transformative power of Cowork as echoed by those who've made it their professional
+                        haven. This is more than finding a desk; it's discovering a community that fuels your journey to success.</p>
+                </div>
+                <button class="pta-btn"></buttonclass>Clain Your spot</button>
+            </div>
         </section>
+
+        <!--blog-->
         <section>
+            <div class="blog-out">
+                <div class="blog-section">
+                    <p class="blog-section-head">COWORK CHRONICLES</p>
+                    <div class="blog-text-box">
+                        <p class="blog-text">Insights, Innovation, and</p>
+                        <p class="blog-text"><span class="blog-img"><img src="img/bloglogo.svg"></span>Inspiration</p>
+                    </div>
+                    <p class="blog-footer">Stay updated on the last trends incoworking, productivity tips, and success<br>
+                    stories that define the Cowork experience.</p>
+                </div>
+
+                <div class="blog-contents">
+                    <div class="blog-card">
+                        <div class="blog-card-contents">
+                            <div class="card-img"><img src="img/blog1.png"></div>
+                            <div class="card-text">
+                                <div class="card-top"><button class="card-btn">Trending</button> <p class="card-top-text">&nbsp; 7 min read</p></div>
+                                <p class="card-main">Navigating the Future: Trends in <br>
+                                Modern Coworking Spaces</p>
+                            </div>
+                            <p class="card-bottom"><span class="card-bottom-text">Read more</span>  <span class="card-bottom-img"><img src="img/blogas.svg"></span></p>
+                        </div>
+
+                        <div class="blog-card-contents">
+                            <div class="card-img"><img src="img/blog2.png"></div>
+                            <div class="card-text">
+                                <div class="card-top"><button class="card-btn2">Productivity</button> <p class="card-top-text">&nbsp; 5 min read</p></div>
+                                <p class="card-main">Mastering Productivity: Tips from <br>
+                                Cowork's High Achievers</p>
+                            </div>
+                            <p class="card-bottom"><span class="card-bottom-text">Read more</span>  <span class="card-bottom-img"><img src="img/blogas.svg"></span></p>
+                        </div>
+                        <div class="blog-card-contents">
+                            <div class="card-img"><img src="img/blog3.png"></div>
+                            <div class="card-text">
+                                <div class="card-top"><button class="card-btn3">Talk</button> <p class="card-top-text">&nbsp; 10 min read</p></div>
+                                <p class="card-main">Tech Talk: The Backbone of <br>
+                                Cowork's Seamless Experience</p>
+                            </div>
+                            <p class="card-bottom"><span class="card-bottom-text">Read more</span>  <span class="card-bottom-img"><img src="img/blogas.svg"></span></p>
+                        </div>
+                    
+                    </div>
+                    <div><button class="view">View All</button></div>
+                </div>
+            </div>
             
         </section>
 
-        <footer></footer>
+         <!--footer-->
+        <footer class="footer-out">
+            <div class="footer-box">
+                <div class="footer-left">
+                    <div class="footer-head">
+                        <img src="img/footer-head.svg">
+                    </div>
+                    
+                    <div class="footer-textbox">
+                        <p class="footer-text">Join our newsletter to stay up to date on features and releases.</p>
+                        <div class="footer-textinput">
+                            <input id="footer-input" type="email" value="Enter your email"> <button class="footer-btn">Subscribe</button>
+                        </div>
+                        
+                        <p class="footer-text">By subscribing you agree to with Privacy Policy and provide consent to <br/>
+                            receive updates from our company.</p>
+                    </div>
+                    
+                </div>
+
+                <div class="footer-right">
+                    <div class="footer-nav">
+                        <ul>
+                            <li class="footer-nav-title">EXPLORE MORE</li>
+                            <li class="footer-nav-contents">Home</li>
+                            <li class="footer-nav-contents">About</li>
+                            <li class="footer-nav-contents">Pricing</li>
+                            <li class="footer-nav-contents">Blog</li>
+                            <li class="footer-nav-contents">Events</li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                        <ul>
+                            <li class="footer-nav-title">STAY CONNECTED</li>
+                            <li class="footer-nav-contents">Subscribe</li>
+                            <li class="footer-nav-contents">Member Stories</li>
+                            <li class="footer-nav-contents">Locations</li>
+                            <li class="footer-nav-contents">Write for Us</li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                        <ul>
+                            <li class="footer-nav-title">FOLLOW US</li>
+                            <li class="footer-nav-contents">Facebook</li>
+                            <li class="footer-nav-contents">Instagram</li>
+                            <li class="footer-nav-contents">X</li>
+                            <li class="footer-nav-contents">LinkedIn</li>
+                            <li class="footer-nav-contents">Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-row">
+                <p class="footer-copy">&copy; 2024 Cowork. All rights reserved.</p>
+                <div class="footer-link">
+                    <p class="footer-link-text">Privacy Policy</p>
+                    <p class="footer-link-text">Terms of Service</p>
+                    <p class="footer-link-text">Cookies Settings</p>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
