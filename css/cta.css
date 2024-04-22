@@ -1,0 +1,116 @@
+/*CTA*/
+.pta {
+  /* CTA */
+  position: static;
+  width: 1440px;
+  height: 613px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 112px 64px 112px 64px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 8;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.pta-out {
+  /* Column */
+  position: static;
+  width: 1312px;
+  height: 389px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 80px;
+  /*border: solid red 1px;*/
+}
+
+.pta-txt-box {
+  /* Content */
+  position: static;
+  width: 1312px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px 0px;
+  /*border: solid orange 1px;*/
+}
+
+.pta-txt {
+  color: rgb(29, 30, 28);
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.pta-txt2 {
+  /* Text */
+  position: static;
+  width: 639px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: rgb(29, 30, 28);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.pta-btn {
+  /* button */
+  position: static;
+  height: 45px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px 12px 24px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 16px;
+  border: 1px solid rgb(29, 30, 28);
+  border-radius: 42px;
+  background: rgb(29, 30, 28);
+  color: rgb(255, 255, 255);
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}

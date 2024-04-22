@@ -1,0 +1,133 @@
+/*------------------Virtual Tour section------------------*/
+.Virtual-Tour {
+  border: 1px solid black;
+  /* Virtual Tour */
+  position: static;
+  width: 1440px;
+  height: 1322px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 112px 64px 112px 64px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.VT-content {
+  border: 1px solid red;
+  /* Content */
+  position: static;
+  width: 768px;
+  height: 318px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 80px 0px;
+}
+.VT-content-subtitle {
+  border: 1px solid blueviolet;
+  /* Subheading */
+  position: static;
+  width: 91px;
+  height: 18px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px 16px 0px;
+
+  color: rgb(29, 30, 28);
+  font-family: Pretendard;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.VT-content-title {
+  /* Heading */
+  position: static;
+  width: 768px;
+  height: 58px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+
+  color: rgb(29, 30, 28);
+  font-family: Pretendard;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.VT-content-title div {
+  /* Frame 66 */
+  position: static;
+  width: 768px;
+  height: 58px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+.VT-content-img {
+  margin: 0px 12px;
+}
+
+.VT-img {
+  /* Placeholder / Image */
+  position: static;
+  width: 1312px;
+  height: 700px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 80px 0px;
+
+  border-radius: 48px;
+  background: url("../img/vt-image2.png");
+}
