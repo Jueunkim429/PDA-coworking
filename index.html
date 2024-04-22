@@ -39,23 +39,77 @@
                     </div>
                 </div>
 
-                <div>
-                    <div>
-                        <div>How flexible are Cowork's membership plans?<button id="toggleButton">글 보이기/가리기</button></div>
-                        <div id="content">
+                <div class="faq-left">
+                    <div class="faq-togglebox">
+                        <div class="faq-toggletitle">
+                          <p class="faq-toggletxt">How flexible are Cowork's membership plans?</p>
+                          <button id="toggleButton"><img id="toggleImage" src="./img/toggledown.svg" alt="이미지" width="24px"></button>
+                        </div>
+                        <div class="faq-innercontent">
                           <p>Frequently asked questions ordered by popularity. Remember that if the visitor has not committed to the call to action, they may still have questions (doubts) that can be answered.</p>
                         </div>
-                      </div>
+                        
+                    </div>
+                    <div class="faq-line"></div>
+
+                    <div class="faq-togglebox">
+                        <div class="faq-toggletitle">
+                          <p class="faq-toggletxt">What kind of events and networking opportunities does Cowork provide?</p>
+                          <button id="toggleButton"><img id="toggleImage" src="./img/toggleup.svg" alt="이미지" width="24px"></button>
+                        </div>
+                    </div>
+                    <div class="faq-line"></div>
+
+                    <div class="faq-togglebox">
+                        <div class="faq-toggletitle">
+                          <p class="faq-toggletxt">Can I tour the Cowork space before committing to a membership?</p>
+                          <button id="toggleButton"><img id="toggleImage" src="./img/toggleup.svg" alt="이미지" width="24px"></button>
+                        </div>
+                        
+                    </div>
+                    <div class="faq-line"></div>
+
+                    <div class="faq-togglebox">
+                        <div class="faq-toggletitle">
+                          <p class="faq-toggletxt">Is Cowork suitable for remote teams and distributed workforces?</p>
+                          <button id="toggleButton"><img id="toggleImage" src="./img/toggleup.svg" alt="이미지" width="24px"></button>
+                        </div>
+                    </div>
+                    <div class="faq-line"></div>
+
+                    <div class="faq-togglebox">
+                        <div class="faq-toggletitle">
+                          <p class="faq-toggletxt">What measures does Cowork take for environmental sustainability?</p>
+                          <button id="toggleButton"><img id="toggleImage" src="./img/toggleup.svg" alt="이미지" width="24px"></button>
+                        </div>
+                    </div>
+                    <div class="faq-line"></div>
+                    
+                    <div class="faq-togglebox">
+                        <div class="faq-toggletitle">
+                          <p class="faq-toggletxt">Still has questions?</p>
+                          <button id="toggleButton"><img id="toggleImage" src="./img/toggleup.svg" alt="이미지" width="24px"></button>
+                        </div>
+                    </div>
+                    <div class="faq-line"></div>
+    
                       <script>
-                        document.getElementById("toggleButton").addEventListener("click", function() {
-                        var content = document.getElementById("content");
-                        if (content.style.display === "none") {
-                            content.style.display = "block";
-                        } else {
-                            content.style.display = "none";
-                        }
+                        var button = document.getElementById("toggleButton");
+                        var image = document.getElementById("toggleImage");
+                        var text = document.querySelector(".faq-innercontent");
+                      
+                        button.addEventListener("click", function() {
+                          if (image.src.endsWith("toggledown.svg")) {
+                            image.src = "./img/toggleup.svg";
+                            text.style.display = "none";
+                          } else {
+                            image.src = "./img/toggledown.svg";
+                            text.style.display = "block";
+                          }
                         });
-                    </script>
+                      </script>
+                      
+                    
                 </div>
         </section>
 
