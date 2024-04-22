@@ -1,6 +1,5 @@
 /*testimonial*/
 .testimonial {
-  /* Testimonial */
   position: static;
   width: 1440px;
   height: 1122px;
@@ -10,7 +9,6 @@
   justify-content: flex-start;
   align-items: center;
   padding: 112px 64px 112px 64px;
-
   /* Inside Auto Layout */
   flex: none;
   order: 6;
@@ -18,62 +16,110 @@
   margin: 0px 0px;
 }
 
-.texti-box {
-  /* Content */
+.testitxt{
+    /* Section Title */
   position: static;
-  width: 1312px;
-  height: 774px;
-  /* Inside Auto Layout */
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
-  margin: 32px 0px;
-  border: solid red 1px;
-}
-
-.testi-top {
-  position: static;
-  width: 1312px;
-  height: 774px;
-  /* Inside Auto Layout */
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
-  margin: 32px 0px;
-  border: solid red 1px;
-}
-
-.testi-1 {
-  /* Content */
-  position: absolute;
-  width: 360px;
-  height: 313px;
-  left: 88px;
-  right: 864px;
-  top: 41px;
-  bottom: 420px;
   /* 자동 레이아웃 */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 32px 0px;
+  /*border: solid red 1px;*/
+}
+
+.textititle{
+  /* Subheading */
+  position: static;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 16px 0px;
+  color: rgb(29, 30, 28);
+  font-family: Pretendard;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  }
+
+.testi-contents{
+  /* Heading */
+  position: static;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: rgb(29, 30, 28);
+
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  }
+
+.testi-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) repeat(2, 0);
+  grid-template-rows: repeat(2, 1fr) repeat(3, 0);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  /*border: solid red 1px;*/
+  justify-content: center; /* 수평 가운데 정렬 */
+  place-items: center;
+}
+
+
+.testi-1 {
+  /* Content */
+  grid-area: 1 / 1 / 2 / 2; 
+  width: 360px;
+  height: 313px;
+  position: relative;
+  margin-top: 41px;
+  margin-left: 88px;
+  margin-right: 66px;
+  margin-bottom: 47px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 32px;
   border-radius: 24px;
-
   background: rgb(211, 249, 133);
 }
 
 .testi-2 {
   /* Content */
-  position: absolute;
+  grid-area: 1 / 2 / 2 / 3; 
   width: 360px;
   height: 338px;
-  left: 508px;
-  right: 444px;
-  top: 15px;
-  bottom: 421px;
+  position: relative;
+  margin-top: 15px;
+  margin-right: 43px;
+  margin-bottom: 48px;
   /* 자동 레이아웃 */
   display: flex;
   flex-direction: column;
@@ -81,6 +127,163 @@
   align-items: center;
   padding: 32px;
   border-radius: 24px;
-
   background: rgb(241, 241, 241);
+}
+
+
+.testi-3 {
+  /* Content */
+  grid-area: 1 / 3 / 2 / 4;  
+  width: 360px;
+  height: 338px;
+  position: relative;
+  margin-top: 73px;
+    margin-right: 41px;
+    margin-bottom: 18px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 32px;
+  border-radius: 24px;
+  background: rgb(166, 232, 246);
+}
+
+
+.testi-4 {
+  /* Content */
+  grid-area: 2 / 1 / 3 / 2;
+  width: 360px;
+  height: 313px;
+  position: relative;
+  left: 258px;
+  right: 70px;
+  bottom: 60px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 32px;
+  border-radius: 24px;
+  background: rgb(252, 190, 220);
+  }
+
+
+.testi-5 {
+  /* Content */
+  grid-area: 2 / 2 / 3 / 3;
+  position:relative;
+  width: 360px;
+  height: 313px;
+  left: 300px;
+  right: 264px;
+  bottom: 32px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 32px;
+  border-radius: 24px;
+  background: rgb(251, 200, 153);
+}
+
+.testiimg{
+  /* Avatar Image */
+  position: static;
+  width: 56px;
+  height: 56px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+  /*border: solid red 1px;*/
+  }
+
+.testi-box-main{
+  /* Quote */
+  position: static;
+  width: 296px;
+  height: 101px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px 0px;
+  color: rgb(29, 30, 28);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: left;
+  /*border: solid red 1px;*/
+}
+
+.testi-box-bottom{
+  width: 296px;
+  margin-top: 24px;
+  justify-content: center;
+  align-items: center;
+
+}
+.testiname{
+  /* Text */
+  position: static;
+  width: 296px;
+  height: 18px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 0px;
+  color: rgb(29, 30, 28);
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  /*border: solid red 1px;*/
+}
+
+.testicon{
+  /* Text */
+  position: static;
+  width: 296px;
+  height: 26px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 0px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 0px 0px;
+  color: rgb(29, 30, 28);
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: center;
+  /*border: solid red 1px;*/
 }
