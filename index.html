@@ -261,15 +261,15 @@
                   
                 </div>
                   
-                <script class="js">
+                <script>
                   var slideIndex = 1;
                   showSlides(slideIndex);
                   function minusSlides() {
-                    console.log("dlifr",slideIndex)
+                    //console.log("dlifr",slideIndex)
                       showSlides(--slideIndex);
                                      }
                   function plusSlides() {
-                    console.log("dlifr",slideIndex)
+                   // console.log("dlifr",slideIndex)
                       showSlides(++slideIndex);
                                      }
               
@@ -277,15 +277,27 @@
                       showSlides(slideIndex = n);
                   }
               
+                  window.addEventListener('resize', function() {
+                      if (window.innerWidth > 768) {
+                          showSlides(slideIndex);
+                      } else {
+                          var slides = document.getElementsByClassName("testi-slide");
+                          for (var i = 0; i < slides.length; i++) {
+                              slides[i].style.display = "block";
+                          }
+                      }
+                  });
                   function showSlides(n) {
                       var i;
                       var slides = document.getElementsByClassName("testi-slide");
-                      if (n > slides.length) {slideIndex = 1}
-                      if (n < 1) {slideIndex = slides.length}
-                      for (i = 0; i < slides.length; i++) {
-                          slides[i].style.display = "none";
-                      }
-                      slides[slideIndex-1].style.display = "block";
+                      if (window.innerWidth <= 768) {
+                        if (n > slides.length) {slideIndex = 1}
+                        if (n < 1) {slideIndex = slides.length}
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        slides[slideIndex-1].style.display = "block";
+                    }
                   }
               </script>
               
