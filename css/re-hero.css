@@ -1,0 +1,128 @@
+@media (max-width: 768px) {
+  .Hero {
+    border: solid 1px red;
+    /* Hero */
+    position: static;
+    width: 390px;
+    height: 897px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 64px 20px 64px 20px;
+
+    margin: 0px 0px;
+
+    background-image: url("../img/hero-bg-img.svg");
+    background-repeat: no-repeat;
+    background-position: 210px 220px;
+  }
+  .Hero-content {
+    /* Content */
+    position: static;
+    width: 350px;
+    height: 409px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+
+    margin: 0px 32px;
+  }
+  .Hero-content-heading {
+    /* Heading */
+    position: static;
+    width: 350px;
+    height: 174px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+
+    margin: 24px 0px;
+
+    color: rgb(29, 30, 28);
+    font-family: Pretendard;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .Hero-content-text {
+    /* Text */
+    position: static;
+    width: 350px;
+    height: 126px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+
+    /* Inside Auto Layout */
+
+    color: rgb(29, 30, 28);
+    font-family: Pretendard;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .Hero-content-button {
+    /* Actions */
+    position: static;
+    width: 143px;
+    height: 61px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px 0px 0px 0px;
+  }
+  .Hero-content-button button {
+    /* button */
+    position: static;
+    width: 143px;
+    height: 45px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px 12px 24px;
+
+    border: 1px solid rgb(29, 30, 28);
+    border-radius: 42px;
+    background: rgb(29, 30, 28);
+
+    color: rgb(255, 255, 255);
+    font-family: Pretendard;
+    font-size: 11px;
+    font-weight: 100;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .Hero-image {
+    /* Placeholder / Image */
+    position: static;
+    width: 350px;
+    height: 320px;
+
+    background-image: url("../img/placeholder-image.svg");
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 24px;
+    margin: 40px 0px 30px 20px;
+  }
+}
