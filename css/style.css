@@ -28,9 +28,6 @@
   align-items: center;
   padding: 0px;
   /* Inside Auto Layout */
-  flex: none;
-  order: 0;
-  flex-grow: 1;
   margin: 0px 0px;
 }
 .nav-menu {
@@ -78,9 +75,6 @@
   padding: 12px 24px 12px 24px;
 
   /* Inside Auto Layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 0px 12px;
 
   border: 1px solid rgb(29, 30, 28);
@@ -100,9 +94,6 @@
   padding: 12px 24px 12px 24px;
 
   /* Inside Auto Layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
   margin: 0px 12px;
 
   border: 1px solid rgb(29, 30, 28);
@@ -116,6 +107,9 @@
   line-height: 150%;
   letter-spacing: 0%;
   text-align: left;
+}
+.menu-btn-mobile {
+  display: none;
 }
 
 /*footer*/
