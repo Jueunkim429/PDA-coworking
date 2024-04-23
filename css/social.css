@@ -11,10 +11,6 @@
   align-items: center;
   padding: 80px 64px 80px 64px;
 
-  /* Inside Auto Layout */
-  flex: none;
-  order: 2;
-  flex-grow: 0;
   margin: 0px 0px;
 }
 .Social-Proof-title {
@@ -28,10 +24,6 @@
   justify-content: flex-start;
   align-items: center;
   /* Inside Auto Layout */
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
   margin: 12px 0px;
 
   color: rgb(29, 30, 28);

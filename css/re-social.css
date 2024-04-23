@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+  .Social-Proof {
+    /* border: 1px solid red; */
+    /* Social Proof */
+    position: static;
+    width: 390px;
+    height: 173px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 48px 20px 48px 20px;
+
+    margin: 0px 0px;
+  }
+  .Social-Proof-title {
+    /* Heading */
+    position: static;
+    width: 350px;
+    height: 18px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* Inside Auto Layout */
+
+    margin: 24px 0px;
+
+    color: rgb(29, 30, 28);
+    font-family: Pretendard;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .Social-Proof-logo {
+    /* Row */
+    position: static;
+    width: 350px;
+    height: 35px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+  }
+  .moblie-logo-1 {
+    display: none;
+  }
+}

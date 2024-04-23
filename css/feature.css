@@ -11,10 +11,6 @@
   align-items: center;
   padding: 112px 64px 112px 64px;
 
-  /* Inside Auto Layout */
-  flex: none;
-  order: 3;
-  flex-grow: 0;
   margin: 0px 0px;
 }
 .Features-title {
@@ -28,11 +24,6 @@
   justify-content: center;
   align-items: flex-start;
   padding: 0px;
-
-  /* Inside Auto Layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 80px 0px;
 
   color: rgb(29, 30, 28);
@@ -43,9 +34,15 @@
   letter-spacing: 0%;
   text-align: center;
 }
+
+div .feat-img-moblie {
+  display: none;
+}
+
 .feat-img {
   margin: 0 16px;
 }
+
 .Features-content {
   /* Row */
   position: static;
@@ -58,11 +55,6 @@
   align-items: flex-start;
   padding: 0px;
 
-  /* Inside Auto Layout */
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
   margin: 80px 0px;
 }
 .Features-content-col {
