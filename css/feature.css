@@ -34,9 +34,11 @@
   letter-spacing: 0%;
   text-align: center;
 }
-.feat-img-mobile {
+
+div .feat-img-moblie {
   display: none;
 }
+
 .feat-img {
   margin: 0 16px;
 }
