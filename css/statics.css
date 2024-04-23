@@ -185,6 +185,30 @@
   letter-spacing: 0%;
   text-align: left;
 }
+.stat-list-bg1 {
+  position: relative;
+  top: -29px;
+  right: -51px;
+  z-index: -1;
+}
+.stat-list-bg2 {
+  position: relative;
+  top: -29px;
+  right: -25px;
+  z-index: -1;
+}
+.stat-list-bg3 {
+  position: relative;
+  top: -29px;
+  right: -25px;
+  z-index: -1;
+}
+.stat-list-bg4 {
+  position: relative;
+  top: -29px;
+  right: -51px;
+  z-index: -1;
+}
 
 .stat-content-list-item-text {
   /* Text */
