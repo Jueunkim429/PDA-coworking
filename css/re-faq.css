@@ -1,0 +1,237 @@
+@media (max-width: 768px){
+    .faq {
+    /* FAQ */
+    position: static;
+    width: 390px;
+    height: auto;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 20px 64px 20px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 7;
+    flex-grow: 1;
+    margin: 0px 0px;
+    /*border: solid red 1px;*/
+    }
+
+    .faq-right {
+        /* Section Title */
+        position: static;
+        width: 350px;
+        height: auto;
+        /* 자동 레이아웃 */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        /*border: solid blue 1px;*/
+    }
+
+    .faq-title {
+        /* Subheading */
+        position: static;
+        width: 350px;
+        height: auto;
+        /* 자동 레이아웃 */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 16px 0px;
+        color: rgb(29, 30, 28);
+        font-size: 12px;
+        font-weight: 100;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .faq-title-box {
+        /* Frame 62 */
+        position: static;
+        width: 350px;
+        height: auto;
+        /* 자동 레이아웃 */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 16px 0px;
+        /*border: solid yellow 1px;*/
+    }
+
+    .faq-main {
+        /* Heading */
+        position: static;
+        width: 350px;
+        height: 67px;
+        /* 자동 레이아웃 */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 24px 0px;
+        color: rgb(29, 30, 28);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .faq-contents {
+        /* Text */
+        position: static;
+        width: 350px;
+        height: 101px;
+        /* 자동 레이아웃 */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 24px 0px;
+        color: rgb(29, 30, 28);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 180%;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .faq-left {
+        /* Accordion Item */
+        position: static;
+        width: 350px;
+        height: auto;
+        /* 자동 레이아웃 */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        /*border: solid blue 1px;*/
+    }
+
+    .faq-togglebox {
+        /* Accordion Item */
+        position: static;
+        width: 350px;
+        /* 자동 레이아웃 */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px 0px 20px 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        margin: 0px 0px;
+        /*border: solid red 1px;*/
+    }
+    .faq-toggletitle {
+        /* Title */
+        position: static;
+        width: 350px;
+        height: auto;
+        /* 자동 레이아웃 */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 16px 0px;
+        /*border: solid tan 1px;*/
+    }
+
+    .faq-toggletxt {
+        /* Question */
+        position: static;
+        width: 306px;
+        height: 21px;
+        /* 자동 레이아웃 */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+        margin: 0px 12px;
+        color: rgb(29, 30, 28);
+        font-size: 14px;
+        font-weight: 100;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .faq-innercontent {
+        /* Text */
+        position: static;
+        width: 350px;
+        /* 자동 레이아웃 */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px 0px 20px 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 16px 0px;
+        color: rgb(29, 30, 28);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 180%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+}

@@ -114,3 +114,11 @@
   letter-spacing: 0%;
   text-align: left;
 }
+
+.pta-logo2{
+  display: none;
+}
+
+.pta-logo{
+  width: fit-content;
+}

@@ -80,6 +80,13 @@
   text-align: left;
 }
 
+.testi-slider-controls{
+  display: none;
+}
+
+.js{
+  display: none;
+}
 .testi-box {
   display: grid;
   grid-template-columns: repeat(3, 1fr) repeat(2, 0);
