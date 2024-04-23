@@ -81,9 +81,12 @@
 }
 
 .testi-slider-controls{
-  display: block;
+  display: none;
 }
 
+.js{
+  display: none;
+}
 .testi-box {
   display: grid;
   grid-template-columns: repeat(3, 1fr) repeat(2, 0);
@@ -171,7 +174,7 @@
   background: rgb(252, 190, 220);
 }
 
-.testi-5 testi-slide {
+.testi-5 {
   /* Content */
   grid-area: 2 / 2 / 3 / 3;
   position: relative;

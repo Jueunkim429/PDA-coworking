@@ -1,136 +1,125 @@
 @media (max-width: 768px){
     .testimonial {
 /* Testimonial */
-position: static;
-width: 390px;
-height: auto;
-/* 자동 레이아웃 */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 64px 20px 64px 20px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 6;
-flex-grow: 1;
-margin: 0px 0px;
-border: solid red 1px;
-
+    position: static;
+    width: 390px;
+    height: auto;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 64px 20px 64px 20px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 6;
+    flex-grow: 1;
+    margin: 0px 0px;
+   /* border: solid red 1px;*/
     }
 
     .testitxt {
-/* Section Title */
-position: static;
-width: auto;
-height: auto;
-/* 자동 레이아웃 */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 0px 0px;
-border: solid red 1px;
+    /* Section Title */
+    position: static;
+    width: auto;
+    height: auto;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+    /*border: solid red 1px;*/
     }
 
     .textititle {
-/* Subheading */
-position: static;
-width: fit-content;
-height: auto;
-/* 자동 레이아웃 */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px;
-color: rgb(29, 30, 28);
-font-family: Pretendard;
-font-size: 12px;
-font-weight: 100;
-line-height: 150%;
-letter-spacing: 0%;
-text-align: center;
-text-transform: uppercase;
+    /* Subheading */
+    position: static;
+    width: fit-content;
+    height: auto;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px;
+    color: rgb(29, 30, 28);
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
     }
 
     .testi-contents {
-/* Heading */
-position: static;
-width: auto;
-height: 33px;
-/* 자동 레이아웃 */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items:center;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 0px;
-color: rgb(29, 30, 28);
-font-family: Pretendard;
-font-size: 24px;
-font-weight: 700;
-line-height: 140%;
-letter-spacing: 0%;
-text-align: center;
+    /* Heading */
+    position: static;
+    width: auto;
+    height: 33px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px;
+    color: rgb(29, 30, 28);
+    font-family: Pretendard;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
     }
 
     .testi-slider-controls{
         /* Frame 68 */
-position: static;
-width: 390px;
-height: 32px;
-/* 자동 레이아웃 */
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-align-items: flex-start;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 8px 0px;
-border: solid red 1px;
+    position: static;
+    width: 390px;
+    height: 32px;
+    /* 자동 레이아웃 */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 8px 0px;
+    /*border: solid red 1px;*/
     }
+
     .testi-box{
         display: grid;
         height: max-content;
         grid-template-columns: 1fr ;
         grid-template-rows:1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  margin-top: 10px;
-  place-items: center;
-  /*border: solid red 1px;*/
-  justify-content: center; /* 수평 가운데 정렬 */
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin-top: 10px;
+        place-items: center;
+        /*border: solid red 1px;*/
+        justify-content: center; /* 수평 가운데 정렬 */
     }
     .testi-1 {
         grid-area: 1 / 1 / 1 / 1;
@@ -156,8 +145,8 @@ border: solid red 1px;
         grid-area: 1 / 1 / 1 / 1;
         /* Content */
         position: static;
-width: 360px;
-height: auto;
+        width: 360px;
+        height: auto;
         margin-top: 0px;
         margin-left: 0px;
         margin-right: 0px;
@@ -176,8 +165,8 @@ height: auto;
         /* Content */
         grid-area: 1 / 1 / 1 / 1;
         position: static;
-width: 360px;
-height: auto;
+        width: 360px;
+        height: auto;
         margin-top: 0px;
         margin-left: 0px;
         margin-right: 0px;
@@ -196,8 +185,8 @@ height: auto;
         /* Content */
         grid-area: 1 / 1 / 1 / 1;
         position: static;
-width: 360px;
-height: auto;
+        width: 360px;
+        height: auto;
         margin-top: 0px;
         margin-left: 0px;
         margin-right: 0px;
@@ -216,8 +205,8 @@ height: auto;
         grid-area: 1 / 1 / 1 / 1;
         /* Content */
         position: static;
-width: 360px;
-height: auto;
+        width: 360px;
+        height: auto;
         margin-top: 0px;
         margin-left: 0px;
         margin-right: 0px;
@@ -243,38 +232,35 @@ height: auto;
         flex-grow: 0;
         margin: 24px 152px;
         display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 100%;
-    text-align: center;
+        justify-content: center;
+        align-items: center;
+        line-height: 100%;
+        text-align: center;
     }
     
     .testi-box-main {
-/* Quote */
-position: static;
-width: 296px;
-height: auto;
-/* 자동 레이아웃 */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 32px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-margin: 0px;
-color: rgb(29, 30, 28);
-font-family: Pretendard;
-font-size: 14px;
-font-weight: 400;
-line-height: 180%;
-letter-spacing: 0%;
-text-align: left;
+        /* Quote */
+        position: static;
+        width: 296px;
+        height: auto;
+        /* 자동 레이아웃 */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 32px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 0px;
+        color: rgb(29, 30, 28);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 180%;
+        letter-spacing: 0%;
+        text-align: left;
     }
 
 }
