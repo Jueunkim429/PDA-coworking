@@ -18,8 +18,8 @@
 ## 📍 참여 인원
 <table style="border: 0.5 solid gray">
  <tr>
-    <td align="center"><a href="https://github.com/subsub97"><img src="https://avatars.githubusercontent.com/subsub97" width="130px;" alt=""></td>
-    <td align="center" style="border-right : 0.5px solid gray"><a href="https://github.com/ShinHeeEul"><img src="https://avatars.githubusercontent.com/ShinHeeEul" width="130px;" alt=""></td>
+    <td align="center"><a href="https://github.com/Jueunkim429"><img src="https://avatars.githubusercontent.com/Jueunkim429" width="130px;" alt=""></td>
+    <td align="center" style="border-right : 0.5px solid gray"><a href="https://github.com/ShinHeeEul"><img src="https://avatars.githubusercontent.com/OneK-2" width="130px;" alt=""></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Jueunkim429"><b>김주은</b></td>
