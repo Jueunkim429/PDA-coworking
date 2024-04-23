@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
   .Hero {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     /* Hero */
     position: static;
     width: 390px;

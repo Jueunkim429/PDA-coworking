@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
   .Features {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* Features */
     position: static;
     width: 390px;
@@ -15,7 +15,7 @@
     margin: 0px 0px;
   }
   .Features-title {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* Frame 63 */
     position: static;
     width: 350px;

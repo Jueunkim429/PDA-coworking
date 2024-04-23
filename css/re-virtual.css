@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   /*------------------Virtual Tour section------------------*/
   .Virtual-Tour {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* Virtual Tour */
     position: static;
     width: 390px;
@@ -110,5 +110,7 @@
 
     border-radius: 48px;
     background: url("../img/vt-image2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
